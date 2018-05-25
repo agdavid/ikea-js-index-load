@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Load Index with JS</title>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+  </head>
+  <body>
+  </body>
+  <script type="text/javascript">
+    var client = algoliasearch('app_id', 'api_key');
+    var index = client.initIndex('index_name');
+  </script>
+</html>
